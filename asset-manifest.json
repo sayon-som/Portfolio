@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.2b5db7c4.css",
+    "main.js": "/Portfolio/static/js/main.e050fc00.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/voayge.png": "/Portfolio/static/media/voayge.bf520cbdf467535cb598.png",
+    "static/media/find_home.png": "/Portfolio/static/media/find_home.aa2dcfda7a4d620cdcc5.png",
+    "static/media/social_front_pic.png": "/Portfolio/static/media/social_front_pic.31f7c791748c807b3cbc.png",
+    "static/media/dBreast.png": "/Portfolio/static/media/dBreast.04aa944f7e2be2b77226.png",
+    "static/media/stories.png": "/Portfolio/static/media/stories.00da635018a7fc74ad35.png",
+    "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/Sayon_Som_Resume-2022.pdf": "/Portfolio/static/media/Sayon_Som_Resume-2022.3cacde0079bc3b361de8.pdf",
+    "static/media/IMG_20230528_174926 (1)-removebg-preview.jpg": "/Portfolio/static/media/IMG_20230528_174926 (1)-removebg-preview.3cc74ac7d3411db757b6.jpg",
+    "static/media/coder.png": "/Portfolio/static/media/coder.cf7dd7144828a26e34fc.png",
+    "static/media/casual_pic.png": "/Portfolio/static/media/casual_pic.4c454f5e8c647d0946ca.png",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio/index.html",
+    "main.2b5db7c4.css.map": "/Portfolio/static/css/main.2b5db7c4.css.map",
+    "main.e050fc00.js.map": "/Portfolio/static/js/main.e050fc00.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b5db7c4.css",
+    "static/js/main.e050fc00.js"
+  ]
+}
