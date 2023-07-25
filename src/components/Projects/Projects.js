@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import voyage from "../../Assets/Projects/voayge.png"
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import home from "../../Assets/Projects/find_home.png"
+import stories from "../../Assets/Projects/stories.png"
+import voyage from "../../Assets/Projects/voayge.png";
+import social from "../../Assets/Projects/social_front_pic.png";
+import ML from "../../Assets/Projects/dBreast.png"
 
 function Projects() {
   return (
@@ -34,57 +33,41 @@ MONGODB , CLOUDINARY. Authentication : PASSPORTJS "
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={social}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Social-Dev"
+              description="A social media application where users can add their visited locations along with theirinformation,ratings, and location for others to rate and review the place. Front End : HTML , CSS , JS , BOOTSTRAP, MAPBOX.  Back End : EXPRESS.JS , NODEJS, MONGOOSE, MONGODB , CLOUDINARY , PASSPORTJS "
+              ghLink="https://github.com/sayon-som/Social-Dev"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={home}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="FIND-HOME"
+              description="A react application to find your ideal home for rent or sale implemented using reactjs in the front end along with firebase 9 in the backend for storage and authentication. Front End: REACTJS. Back End: FIREBASE 9. Authentication: GOOGLE OAUTH"
+              ghLink="https://github.com/sayon-som/FIND-HOME"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={stories}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Stories"
+              description="The creation or sharing of information, ideas, career interests, whistle blowing and other kinds of expression via virtual communities and networks is made possible by social media, an interactive computer-mediated technology by remaining as an anonymous entity. Our goal is to create an app that would enable you to connect with individuals locally, regionally, nationally, and even worldwide to offer a platform on which people can communicate with others globally to discuss ideas and learn about different cultures throughout the world FRONTEND : REACTJS.
+BACKEND : NODEJS , EXPRESSJS , MONGODB , SOCKETIO."
+              ghLink="https://github.com/sayon-som/STORIES"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ML}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="Breast-Cancer-Prediction"
+              description="Using a classification algorithm on the Breast Cancer Wisconsin (Original) Data Set to declare whether the condition is Benign or Malignant."
+              ghLink="https://github.com/sayon-som/Breast-Cancer-Prediction"
             />
           </Col>
         </Row>

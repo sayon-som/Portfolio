@@ -40,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <p style={{fontWeight:"bold"}}>[ / ]</p>
+          <p style={{ fontWeight: "bold" }}>[ / ]</p>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -95,7 +95,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/sayon-som"
+                href="https://github.com/stars/sayon-som/lists/projects"
                 target="_blank"
                 className="fork-btn-inner"
               >
